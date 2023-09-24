@@ -1,7 +1,7 @@
 // في ملف JavaScript منفصل أو بالجزء السفلي من ملف HTML
 document.addEventListener("DOMContentLoaded", function () {
     const body = document.body;
-    const backgroundColors = ["#f2f2f2", "#e0e0e0", "#d1d1d1"];
+    const backgroundColors = ["#8EFF00", "#0BBFDC", "#54D2E6"];
     let currentColorIndex = 0;
 
     function changeBackgroundColor() {
