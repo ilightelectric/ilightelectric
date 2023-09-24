@@ -2,16 +2,14 @@
 body {
     font-family: 'Roboto', sans-serif; /* Set the font family to Roboto */
     text-align: center; /* Center-align all text within the body */
-    font-size: 24px; /* Set a larger font size for the entire page */
-    background-color: blue;
 }
 
 a {
     text-decoration: none; /* Remove default underline */
     color: #FFFFFF; /* Set the link text color */
     background-color: #0077FF; /* Set the background color to blue */
-    padding: 15px 30px; /* Increase padding for larger size */
-    border-radius: 15px; /* Increase border-radius for larger size */
+    padding: 5px 10px; /* Add padding to the hyperlinks for better appearance */
+    border-radius: 5px; /* Add rounded corners to the links */
     font-weight: bold; /* Make the font bold */
     position: relative; /* Create a relative positioning context */
     transition: color 0.3s, background-color 0.3s, box-shadow 0.3s; /* Add smooth transition */
@@ -21,7 +19,7 @@ a {
 a:hover {
     color: #FF5500; /* Change the link text color on hover */
     background-color: #0055CC; /* Change the background color to a darker blue on hover */
-    box-shadow: 0 0 20px rgba(255, 85, 0, 0.7); /* Increase shadow size for larger size */
+    box-shadow: 0 0 10px rgba(255, 85, 0, 0.7); /* Add glowing shadow on hover */
 }
 
 /* Create space between hyperlinks */
@@ -34,4 +32,3 @@ nav li {
     display: inline;
     margin-right: 20px; /* Adjust the margin to control the space */
 }
-

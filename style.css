@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif; /* Set the font family to Roboto */
     text-align: center; /* Center-align all text within the body */
+    background-color: blanchedalmond;
 }
 
 a {
