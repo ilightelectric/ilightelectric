@@ -2,25 +2,27 @@
 body {
     font-family: 'Roboto', sans-serif; /* Set the font family to Roboto */
     text-align: center; /* Center-align all text within the body */
-    background-color: beige;
+    font-size: 24px; /* Set a larger font size for the entire page */
+    background-color: blanchedalmond;
 }
 
 a {
     text-decoration: none; /* Remove default underline */
     color: #FFFFFF; /* Set the link text color */
     background-color: #0077FF; /* Set the background color to blue */
-    padding: 5px 10px; /* Add padding to the hyperlinks for better appearance */
-    border-radius: 5px; /* Add rounded corners to the links */
+    padding: 15px 30px; /* Increase padding for larger size */
+    border-radius: 15px; /* Increase border-radius for larger size */
     font-weight: bold; /* Make the font bold */
     position: relative; /* Create a relative positioning context */
     transition: color 0.3s, background-color 0.3s, box-shadow 0.3s; /* Add smooth transition */
     display: inline-block; /* Make hyperlinks inline-block to center them horizontally */
+    margin: 10px; /* Add margin around hyperlinks */
 }
 
 a:hover {
     color: #FF5500; /* Change the link text color on hover */
     background-color: #0055CC; /* Change the background color to a darker blue on hover */
-    box-shadow: 0 0 10px rgba(255, 85, 0, 0.7); /* Add glowing shadow on hover */
+    box-shadow: 0 0 20px rgba(255, 85, 0, 0.7); /* Increase shadow size for larger size */
 }
 
 /* Create space between hyperlinks */
@@ -32,4 +34,12 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 20px; /* Adjust the margin to control the space */
+}
+
+/* Make the images large-sized and arrange them vertically */
+img {
+    width: 300px; /* Adjust the width to make images large-sized */
+    height: auto; /* Auto height to maintain aspect ratio */
+    display: block; /* Make images block-level elements to stack vertically */
+    margin: 10px auto; /* Center-align images and add margin between them */
 }
